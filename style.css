@@ -1,0 +1,32 @@
+body {
+    margin: 0;
+    background: #111;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container{
+    width: 90%;
+    max-width: 700px;
+    display:flex;
+    flex-direction:column;
+    gap:20px;
+}
+
+canvas{
+    width:100%;
+    border-radius:15px;
+    background:#222;
+}
+
+input,button{
+    padding:15px;
+    font-size:16px;
+}
+
+button{
+    cursor:pointer;
+}
